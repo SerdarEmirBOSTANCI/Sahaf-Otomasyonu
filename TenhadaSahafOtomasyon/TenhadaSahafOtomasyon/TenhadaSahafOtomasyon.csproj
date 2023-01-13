@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F64D77D4-55EC-4A29-830D-EB112E948876}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TenhadaSahafOtomasyon</RootNamespace>
+    <AssemblyName>TenhadaSahafOtomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aylikCiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aylikCiro.Designer.cs">
+      <DependentUpon>aylikCiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaglantiSinif.cs" />
+    <Compile Include="ciroHesapla.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gunlukHaraketler.cs" />
+    <Compile Include="gunlukHareketler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gunlukHareketler.Designer.cs">
+      <DependentUpon>gunlukHareketler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayitOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayitOl.Designer.cs">
+      <DependentUpon>kayitOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitap.cs" />
+    <Compile Include="kitapEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapEkle.Designer.cs">
+      <DependentUpon>kitapEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitaplar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitaplar.Designer.cs">
+      <DependentUpon>kitaplar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapSat.cs" />
+    <Compile Include="kullaniciBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kullaniciBilgileri.Designer.cs">
+      <DependentUpon>kullaniciBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oduncVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oduncVer.Designer.cs">
+      <DependentUpon>oduncVer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SahafOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SahafOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SahafOtomasyonuDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SahafOtomasyonuDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SahafOtomasyonuDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SahafOtomasyonuDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SahafOtomasyonuDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SahafOtomasyonuDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tarih.cs" />
+    <Compile Include="yeniKitapEkle.cs" />
+    <EmbeddedResource Include="aylikCiro.resx">
+      <DependentUpon>aylikCiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gunlukHareketler.resx">
+      <DependentUpon>gunlukHareketler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayitOl.resx">
+      <DependentUpon>kayitOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapEkle.resx">
+      <DependentUpon>kitapEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitaplar.resx">
+      <DependentUpon>kitaplar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kullaniciBilgileri.resx">
+      <DependentUpon>kullaniciBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oduncVer.resx">
+      <DependentUpon>oduncVer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SahafOtomasyonuDataSet.xsc">
+      <DependentUpon>SahafOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SahafOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SahafOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SahafOtomasyonuDataSet.xss">
+      <DependentUpon>SahafOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SahafOtomasyonuDataSet1.xsc">
+      <DependentUpon>SahafOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SahafOtomasyonuDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SahafOtomasyonuDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SahafOtomasyonuDataSet1.xss">
+      <DependentUpon>SahafOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SahafOtomasyonuDataSet2.xsc">
+      <DependentUpon>SahafOtomasyonuDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SahafOtomasyonuDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SahafOtomasyonuDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SahafOtomasyonuDataSet2.xss">
+      <DependentUpon>SahafOtomasyonuDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SahafOtomasyonuDataSet3.xsc">
+      <DependentUpon>SahafOtomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SahafOtomasyonuDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SahafOtomasyonuDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SahafOtomasyonuDataSet3.xss">
+      <DependentUpon>SahafOtomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_more_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girisArkaplan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaPlan.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\çıkışButonu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\çıkışButonu_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitaplar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geri_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hareketler.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

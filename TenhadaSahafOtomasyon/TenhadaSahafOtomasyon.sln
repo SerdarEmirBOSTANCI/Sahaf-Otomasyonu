@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenhadaSahafOtomasyon", "TenhadaSahafOtomasyon\TenhadaSahafOtomasyon.csproj", "{F64D77D4-55EC-4A29-830D-EB112E948876}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Sahaf Otomasyonu", "Sahaf Otomasyonu\Sahaf Otomasyonu.vdproj", "{6265C9E6-DA35-4B38-8E04-0FC622E2BF99}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TenhadaSahaf", "TenhadaSahaf\TenhadaSahaf.vdproj", "{A4631134-9D84-4A11-85E7-928AEDEBAD91}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Deneme", "Deneme\Deneme.vdproj", "{93A52591-BC84-4E66-98FB-4E961325F2CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F64D77D4-55EC-4A29-830D-EB112E948876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64D77D4-55EC-4A29-830D-EB112E948876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64D77D4-55EC-4A29-830D-EB112E948876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64D77D4-55EC-4A29-830D-EB112E948876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6265C9E6-DA35-4B38-8E04-0FC622E2BF99}.Debug|Any CPU.ActiveCfg = Debug
+		{6265C9E6-DA35-4B38-8E04-0FC622E2BF99}.Release|Any CPU.ActiveCfg = Release
+		{A4631134-9D84-4A11-85E7-928AEDEBAD91}.Debug|Any CPU.ActiveCfg = Debug
+		{A4631134-9D84-4A11-85E7-928AEDEBAD91}.Release|Any CPU.ActiveCfg = Release
+		{93A52591-BC84-4E66-98FB-4E961325F2CE}.Debug|Any CPU.ActiveCfg = Debug
+		{93A52591-BC84-4E66-98FB-4E961325F2CE}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F959BF3-35C1-41BE-874D-C787DDDDC371}
+	EndGlobalSection
+EndGlobal
